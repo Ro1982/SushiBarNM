@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\restaurantproto.sketch" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Rache\Dropbox\Temp\SushiBarNM\README.md" Link="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
